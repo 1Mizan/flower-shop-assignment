@@ -1,16 +1,25 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 /* header related css */
 header {
     background: #E554731A;
     display: flex;
     justify-content: space-around;
+    /* max-height: 4000px; */
+    gap: 30px;
 
-    /* rgba(229, 84, 115, 0.10); */
 }
 
 .Openings {
-    margin: 197px 0px 365px 240px;
-    padding-right: 97px;
-
+    /* margin: 197px 10px 365px 240px; */
+    /* margin-top: 197px; */
+    /* margin-right: 125px;
+    margin-bottom: 360px;
+    margin-left: 240px; */
+    /* padding-right: 97px; */
+    margin-left: 240px;
+    margin-top: 150px;
 }
 
 .Openings h1 {
@@ -28,8 +37,9 @@ header {
     margin-bottom: 32px;
 
 }
-.heading-pic{
-    padding-top: 400px;
+
+.heading-pic {
+    padding-top: 350px;
     padding-right: 240px;
     mask-repeat: no-repeat;
     position: bottom right;
@@ -38,9 +48,27 @@ header {
 
 .btn-primary {
     border-radius: 8px;
+    border: 0;
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
     background: #E55473;
     padding: 20px 43px;
+}
+
+/* main related css */
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 170px;
+}
+
+.section-des {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
