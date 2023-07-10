@@ -1,11 +1,8 @@
 /* header related css */
 header {
     background: #E554731A;
-    background-image: url('flower assets/pngwing\ 10.png');
-    background-repeat: no-repeat;
-    background-position: bottom right;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
     /* rgba(229, 84, 115, 0.10); */
 }
@@ -20,18 +17,30 @@ header {
     color: #272727;
     font-size: 80px;
     font-weight: 800;
+    padding-right: 97px;
 }
 
 .Openings p {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
-    line-height: 30px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+}
+.heading-pic{
+    padding-top: 400px;
+    padding-right: 240px;
+    mask-repeat: no-repeat;
+    position: bottom right;
 
 }
 
-.heading-pic {
-    margin-top: 50px;
-    margin-right: 240px;
-    
+.btn-primary {
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    background: #E55473;
+    padding: 20px 43px;
 }
