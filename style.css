@@ -1,0 +1,37 @@
+/* header related css */
+header {
+    background: #E554731A;
+    background-image: url('flower assets/pngwing\ 10.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    display: flex;
+    justify-content: space-between;
+
+    /* rgba(229, 84, 115, 0.10); */
+}
+
+.Openings {
+    margin: 197px 0px 365px 240px;
+    padding-right: 97px;
+
+}
+
+.Openings h1 {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.Openings p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.heading-pic {
+    margin-top: 50px;
+    margin-right: 240px;
+    
+}
