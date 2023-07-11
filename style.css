@@ -182,7 +182,11 @@ header {
     justify-content: space-around;
     margin-left: 250px;
 }
-
+.img{
+    padding-top: 100px;
+    padding-bottom: 70px;
+    padding-right: 100px;
+}
 
 /* sec-4 styles */
 .sec-4 p {
